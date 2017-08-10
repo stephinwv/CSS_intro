@@ -1,10 +1,12 @@
 
 <!DOCtype HTML5>
 
-<div class="fixed-bg">
+
 <link rel="stylesheet" href="css/style.css">
+
 <html lang ="en">
-</div>
+
+
 <header>
 	<meta charset="utf-8">
 	<title>Thrill Seekers Guide To Roller Coasters</title>
@@ -22,19 +24,76 @@
 </ul>
 </header>
 
+
 <body>
 
+<div id="con1" name= "con1" title="results">
 <b>Here is your results!</b><br>
  <%= amount%> will give you <%= coins%><br>
+ <script type="text/jquery"></script>
+<script type="text/jquery"></script>
+<script>
+  var currentTime = new Date(),
+      hours = currentTime.getHours(),
+      minutes = currentTime.getMinutes();
+
+  if (minutes < 10) {
+   minutes = "0" + minutes;
+  }
+
+  var suffix = "AM";
+  if (hours >= 12) {
+    suffix = "PM";
+    hours = hours - 12;
+  }
+  if (hours == 0) {
+   hours = 12;
+  }
+  document.write(hours + ":" + minutes + suffix + "   ")
+</script>
+<script type="text/javascript">
+  var currentDate = new Date(),
+      day = currentDate.getDate(),
+      month = currentDate.getMonth() + 1,
+      year = currentDate.getFullYear();
+  document.write(day + "/" + month + "/" + year)
+</script>
+</div>
+<div id = rc><a href="rc_bladder"><img src = "./img/rc_bladder.png"></a>
 
 
+<script type="text/javascript">
+      var j = jQuery.noConflict();
 
+      j('.click-me .hover-me').mouseenter(function(){
+  j('.click-me .hover-me ul').slideToggle('fast', function(){
+  //Change image to new image
+  j('.click-me .hover-me li .clicker').css('background-image', 'url(images/rc_bladder.png)');
+  });
+});
+j('.click-me .hover-me').mouseleave(function(){
+  j('.click-me .hover-me ul').slideToggle('fast', function(){
+  //Change image to new image
+  j('.click-me .hover-me li .clicker').css('background-image', 'url(images/vr_rc.png)');
+  });
+});
+    </script>
+ 
+</div>
+<div id="con2" name="con2" title="Contact">
 <p>Enjoy riding rollercoasters? We do as well! More information is right at your fingertips! We have compiled a few links to make your search for the perfect thrill much easier. Each page on this site contains links to the best lists.</p> 
 
 You can also check out Mined Minds by clicking on the image below: 
 
-<div id = mm><a href="http://www.minedminds.org"><img src = "./img/mm.jpg"></a></div>
 
+
+
+<div id = mm><a href="http://www.minedminds.org"><img src = "./img/mm.jpg"></a>
+
+</div>
+
+
+</div>
 </body>
 
 <footer>
