@@ -4,7 +4,7 @@ header {
     background-color: transparent;
     position: absolute;
     top: 5px;
-    left: 19%;
+    left: 12%;
 }
 
  body {
@@ -45,13 +45,14 @@ li a:hover {
     background-color: white;
 }
 footer {
-    
+    padding-top: 0px;
+    padding-bottom: 0px;
     position: center;
     z-index: 10;
-    height: 14em;
+    height: 100px;
     width: 100%;
-    margin-top: 12em;
-    margin-bottom: 20em;
+    margin-top: 0px;
+    margin-bottom: 5px;
     background-color: gray;
     text-align: center;
 }
@@ -76,26 +77,29 @@ footer {
 
 
 #cc div {
-    
-    background-color: rgb(0, 0, 0);
+    background-color: white;
+    background:opacity: .2;
     text-align: center;
     font-size: 20px;
     font-family: georgia, Times, serif;
 }
 #index_text div {
-    background-color: rgb(0, 0, 0);
+    background-color: white;
+    background: opacity: .2;
     text-align: center;
     font-size: 20px;
     font-family: georgia, Times, serif;
 }
 #con2 div{
-   background-color: rgb(0, 0, 0);
+    background-color: white;
+    background: opacity: .2;
     text-align: center;
     font-size: 20px;
     font-family: georgia, Times, serif;  
 }
 #con1 div{
-    background-color: rgb(0, 0, 0);
+    background-color: white;
+    background: opacity: .2;
     position: relative;
     width: 400px;
     height: 200px;
@@ -107,7 +111,8 @@ footer {
     font-family: georgia, Times, serif;  
 }
 #us div{
-    background-color: rgb(0, 0, 0);
+    background-color: white;
+    background: opacity: .2;
     position: relative;
     width: 400px;
     height: 200px;
@@ -119,7 +124,8 @@ footer {
     font-family: georgia, Times, serif;   
 }
 #parks div{
-    background-color: rgb(0, 0, 0);
+    background-color: white;
+    background: opacity: .2;
     position: relative;
     width: 400px;
     height: 200px;
@@ -131,7 +137,8 @@ footer {
     font-family: georgia, Times, serif   
 }
 #world div{
-    background-color: rgb(0, 0, 0);
+    background-color: white;
+    background: opacity: .2;
     position: relative;
     width: 400px;
     height: 200px;
