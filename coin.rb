@@ -10,7 +10,7 @@ def coin_changer(amount)
   amount = amount - value
 end}
 
-your_change.collect { |k, v| "#{v} #{k}, " }.join
+your_change.collect { |k, v| " #{v} ~ #{k}  " }.join
 end
 
 
