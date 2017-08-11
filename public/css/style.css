@@ -8,7 +8,7 @@ header {
 }
 
  body {
-    background-image: url("../img/japan.jpg");
+    background-image: url("/img/japan.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     padding-top: 200px;
